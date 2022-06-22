@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-express-server-template",
+  "version": "1.0.0",
+  "description": "A simple nodejs express server template",
+  "main": "./src/App.js",
+  "scripts": {
+    "start": "node src/App.js",
+    "dev": "nodemon src/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "template"],
+  "author": "George Tomyuk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Getsumi3/nodejs-express-server-template.git"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
